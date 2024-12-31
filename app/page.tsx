@@ -1,3 +1,11 @@
-export default function Page() {
-    return <h1>Hello, Next.js!</h1>
-  }
+
+import React from 'react';
+
+const App = () => {
+  return (
+   <>
+   </>
+  );
+};
+
+export default App;

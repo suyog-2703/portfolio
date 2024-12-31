@@ -29,6 +29,11 @@
     "next-env.d.ts",
     ".next/types/**/*.ts"
   ],
+  "paths": {
+      "@/*": ["./*"],
+      "@/component/*": ["app/_component/*"],
+      "@/modules/*": ["app/_modules/*"],
+    },
   "exclude": [
     "node_modules"
   ]

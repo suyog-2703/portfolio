@@ -1,3 +1,4 @@
+import AppBar from './_modules/AppBar/AppBar'
 export default function RootLayout({
     children,
   }: {
@@ -5,7 +6,9 @@ export default function RootLayout({
   }) {
     return (
       <html lang="en">
-        <body>{children}</body>
+        <body>
+          <AppBar/>
+          {children}</body>
       </html>
     )
   }
